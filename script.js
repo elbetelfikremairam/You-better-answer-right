@@ -140,9 +140,9 @@ submitBtn.addEventListener("click", () => {
             loadQuiz();
         } else {
             let message = '';
-            if (score <=2) {
+            if (score <=5) {
                 message = "Unacceptable,Jed. Better try again or i'll beat u up.";
-            } else if (score>2){
+            } else if (score>5){
                 message = ":) Good job. Dm me to request a reward.";
             }
 
